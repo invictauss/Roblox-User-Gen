@@ -1,0 +1,7 @@
+# open cmd to install req.
+
+requests
+colorama
+console
+DiscordWebhook
+DiscordEmbed
