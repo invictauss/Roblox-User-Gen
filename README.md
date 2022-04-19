@@ -18,3 +18,4 @@
 `> Credits`
 
 - Originally MADE by Dhirk07, i just made some changes.
+- Dhirk07, if you want me to remove this repo contact me.
