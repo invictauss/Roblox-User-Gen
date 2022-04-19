@@ -10,7 +10,7 @@
 `> Features`
 
 - Proxyless.
-- Sends users in .txt and discord server.
+- Sends users in .txt and in discord server.
  
  
 `> Credits`
