@@ -1,5 +1,3 @@
-# open cmd to install req.
-
 requests
 colorama
 random
