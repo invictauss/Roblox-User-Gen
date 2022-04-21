@@ -17,7 +17,7 @@ def namegen():
 SignUp = ('[Register](https://www.roblox.com/signup)')
 
 print(f'{Fore.WHITE}╔════════════════════════════════════╗')
-print(f'{Fore.RED}       M{Fore.YELLOW}a{Fore.GREEN}d{Fore.BLUE}e {Fore.MAGENTA}b{Fore.RED}y {Fore.RED}I{Fore.YELLOW}n{Fore.GREEN}v{Fore.BLUE}i{Fore.MAGENTA}c{Fore.RED}#{Fore.YELLOW}1{Fore.GREEN}3{Fore.BLUE}3{Fore.MAGENTA}7 & {Fore.CYAN} Dhirk07')
+print(f'{Fore.MAGENTA}  Made by {Fore.CYAN}Invic#1337 {Fore.MAGENTA}& {Fore.CYAN} Dhirk07#0007')
 print(f'{Fore.MAGENTA}      Roblox User Generator')
 print(f'{Fore.WHITE}╚════════════════════════════════════╝')
 print(f'')
