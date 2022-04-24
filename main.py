@@ -36,6 +36,7 @@ while True:
 
 
             # the emojis will not work on your server, so you can remove or change it
+            # also you can customize whatever you want 
             
             embed = DiscordEmbed(title='New Username Sniped!', color=0x183CCD) # you can change the embed color, just change the numbers after 0x
             embed.set_thumbnail(url="") # put your thumbnail image here link format
