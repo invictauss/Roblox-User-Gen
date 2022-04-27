@@ -1,3 +1,5 @@
 requests
 colorama
 discord_webhook
+time
+os
