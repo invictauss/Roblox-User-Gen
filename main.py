@@ -26,11 +26,15 @@ print(f'{Fore.WHITE}╚═══════════════════
 print(f'')
 print(f'{Fore.WHITE}'*38)
 print(f'{Fore.WHITE}[{Fore.MAGENTA}+{Fore.WHITE}] Loading please wait...')
+
 time.sleep(3)
+
 print(f'{Fore.WHITE}[{Fore.GREEN}!{Fore.WHITE}] Successfully started bot.')
 print(f'{Fore.WHITE}')
 print(f'{Fore.WHITE}')
+
 time.sleep(2)
+
 os.system("cls")
 
 while True:
