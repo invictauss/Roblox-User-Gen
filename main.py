@@ -1,8 +1,11 @@
 # Dhirk07 & Invic.
-import requests, colorama, random
+import requests, colorama, random, time, os
+from os import system
 from colorama import init, Fore
 init()
 from discord_webhook import DiscordWebhook, DiscordEmbed
+
+system("cls && title Roblox User Gen - v1.3.0")
 
 webhook = DiscordWebhook(url="Your Discord Webhook")
 val = ('[Login](https://www.roblox.com/login)')
@@ -21,8 +24,13 @@ print(f'{Fore.MAGENTA}  Made by {Fore.CYAN}Invic#1337 {Fore.MAGENTA}& {Fore.CYAN
 print(f'{Fore.MAGENTA}      Roblox User Generator')
 print(f'{Fore.WHITE}╚════════════════════════════════════╝')
 print(f'')
-print(f'{Fore.WHITE}[{Fore.GREEN}+{Fore.WHITE}] {Fore.MAGENTA} Loading Roblox User Generator...')
 print(f'{Fore.WHITE}'*38)
+print(f'{Fore.WHITE}')
+print(f'{Fore.WHITE}[{Fore.MAGENTA}+{Fore.WHITE}] Loading please wait...')
+time.sleep(3)
+print(f'{Fore.WHITE}[{Fore.GREEN}!{Fore.WHITE}] Successfully started bot.')
+print(f'{Fore.WHITE}')
+print(f'{Fore.WHITE}')
 while True:
         name = namegen()
         r = requests.get("https://api.roblox.com/users/get-by-username?username=" + name)
