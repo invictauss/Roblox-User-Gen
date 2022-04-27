@@ -46,17 +46,13 @@ while True:
             print(''*38)
             open("UserNames.txt", "a").write(name + '\n')
 
+            # Discord Webhook
 
-
-
-            # the emojis will not work on your server, so you can remove or change it
-            # also you can customize whatever you want 
-            
-            embed = DiscordEmbed(title='New Username Sniped!', color=0x183CCD) # you can change the embed color, just change the numbers after 0x
-            embed.set_thumbnail(url="") # put your thumbnail image here link format
+            embed = DiscordEmbed(title='New Username Sniped!', color=0x183CCD)
+            embed.set_thumbnail(url="") 
             embed.add_embed_field(name='<:verifiedmm:947306063781326859> | Username', value=f'{name}')
             embed.add_embed_field(name='<:added:947580440640901120> | Login Account', value=f'{val}')
             embed.add_embed_field(name='<:add:947580158750105711> | Register Account', value=f'{SignUp}')
-            embed.set_footer(text='') # put your text in
+            embed.set_footer(text='')
             webhook.add_embed(embed)
             response = webhook.execute(remove_embeds=True)
